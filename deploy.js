@@ -23,7 +23,7 @@ function installPM2() {
 function transferProjectToRemote(failed, successful) {
   return ssh.putDirectory(
     '../starter-node-angular',
-    '/home/ubuntu/hackathon-starter-temp',
+    '/home/ubuntu/starter-node-angular-temp',
     {
       recursive: true,
       concurrency: 1,
